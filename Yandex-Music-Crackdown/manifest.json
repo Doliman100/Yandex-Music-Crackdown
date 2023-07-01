@@ -1,0 +1,20 @@
+{
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "enabled": true,
+      "id": "ruleset_1",
+      "path": "rules_1.json"
+    }]
+  },
+  "host_permissions": [
+    "https://music.yandex.ru/*"
+  ],
+  "manifest_version": 3,
+  "name": "Yandex Music Crackdown",
+  "permissions": ["declarativeNetRequestWithHostAccess"],
+  "version": "1.0",
+  "web_accessible_resources": [{
+    "matches": ["https://music.yandex.ru/*"],
+    "resources": ["patch.js"]
+  }]
+}

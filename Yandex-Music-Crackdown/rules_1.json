@@ -1,0 +1,13 @@
+[{
+  "action" : {
+    "redirect": {
+      "extensionPath": "/patch.js"
+    },
+    "type" : "redirect"
+  },
+  "condition" : {
+    "resourceTypes" : ["script"],
+    "urlFilter" : "|https://music.yandex.ru/api/v2.1/index/music.yandex.ru?v="
+  },
+  "id" : 1
+}]
